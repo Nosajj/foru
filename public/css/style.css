@@ -1,0 +1,11 @@
+
+
+
+.btn-1 {
+    background: rgb(237, 77, 99);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+  }
