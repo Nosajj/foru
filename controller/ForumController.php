@@ -15,8 +15,7 @@
           
 
             $categoryManager = new CategoryManager();
-            $topicManager = new TopicManager();
-            $postManager = new PostManager();
+            
  
              return [
                  "view" => VIEW_DIR."forum/listCategories.php",
@@ -34,7 +33,7 @@
 
             $categoryManager = new CategoryManager();
             $topicManager = new TopicManager();
-            // $postManager = new PostManager();
+         
  
              return [
                  "view" => VIEW_DIR."forum/detailsCategory.php",

@@ -5,7 +5,9 @@ $topics = $result["data"]['topics'];
     
 ?>
 
-<h1>liste topics</h1>
+<h1>liste topics de la catégorie <?= $category->getCategoryName()?></h1>
+
+
 
 <?php
 foreach($topics as $topic ){

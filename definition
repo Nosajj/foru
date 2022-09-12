@@ -1,2 +1,8 @@
 hydrate : Hydrater un objet, c'est tout simplement lui apporter ce dont il a besoin pour fonctionner. En d'autres termes , hydrater un objet revient à lui fournir des données correspondant à ses attributs pour qu'il assigne les valeurs souhaitées à ces derniers.
 
+controlleur : le Contrôleur prend en charge la gestion des évènements de synchronisation pour mettre à jour la vue ou le modèle. Il n'effectue aucun traitement, ne modifie aucune donnée, il analyse la requête du client et se contente d'appeler le modèle adéquat et de renvoyer la vue correspondante à la demande.
+
+$_SESSION : La superglobale $_SESSION est un tableau associatif qui va contenir toutes les données de session une fois la session démarrée.
+On garde en mémoire les données de l'utilisateurs , même si il change de page etc et ce jusque la fin de celles ci.
+
+ 

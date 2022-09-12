@@ -41,14 +41,16 @@
                         else{
                             ?>
                             <a href="./view/security/login.php">Connexion</a>
-                            <a href="/security/register.html">Inscription</a>
-                            <a href="index.php?ctrl=forum&action=listCategories">la liste des catégories</a>
-                        <?php
+                            <a href="index.php?ctrl=security&action=registerForm">Inscription</a>
+                            <?php
                         }
-                   
                         
-                    ?>
+                        
+                        ?>
                     </div>
+                    <a href="index.php?ctrl=forum&action=index">La liste des catégories</a>
+                    <a href="index.php?ctrl=forum&action=index">La liste 2 </a>
+                    <a href="index.php?ctrl=forum&action=index">La liste 3</a>
                 </nav>
             </header>
             

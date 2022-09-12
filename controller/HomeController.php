@@ -12,13 +12,13 @@
     class HomeController extends AbstractController implements ControllerInterface{
 
         public function index(){
+                
             
-           
-                return [
-                    "view" => VIEW_DIR."home.php"
-                ];
-            }
-            
+                    return [
+                        "view" => VIEW_DIR."home.php"
+                    ];
+                }
+                
         
    
         // public function users(){
